@@ -14,5 +14,5 @@ app.use("/login", (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`API is running on port http://localhost:${PORT}/login`);
+  console.log(`API is running on http://localhost:${PORT}/login`);
 });
